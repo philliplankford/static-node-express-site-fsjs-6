@@ -1,0 +1,40 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Web-App",
+            "description": "A landing page for a web application.",
+            "technologies": [
+                "Javasript",
+                "DOM interaction",
+                "CSS Grid",
+                "CSS Flexbox",
+                "SCSS"
+            ],
+            "live_link": "https://philliplankford.com/tech-degree-project-7/",
+            "github_link": "https://github.com/philliplankford/tech-degree-project-7",
+            "image_urls": {
+                "landing": "images/web-app.png",
+                "project_page": "images/web-app-alerts.png"
+            }
+        },
+        {
+            "id": 1,
+            "project_name": "Employee Directory",
+            "description": "Searchable employee directory.",
+            "technologies": [
+                "Javasript",
+                "Fetch API",
+                "CSS Grid",
+                "CSS Flexbox",
+                "SCSS"
+            ],
+            "live_link": "https://philliplankford.com/tech-degree-project-8/",
+            "github_link": "https://github.com/philliplankford/tech-degree-project-8",
+            "image_urls": {
+                "landing": "images/employee-directory.png",
+                "project_page": "images/employee-directory-filter.png"
+            }
+        }
+    ]
+}
