@@ -362,3 +362,22 @@ nav a span {
     max-width: 1200px;
   }
 }
+
+/* === PHILLIPS CHANGES === */ 
+
+.sidebar { 
+  background-color: pink;
+}
+
+.sidebar p {
+  color: #fefefe;
+}
+
+.header:hover {
+  transition: all .5s ease-out;
+  color: pink; 
+}
+
+h1 {
+  font-family: 'Zen Kurenaido', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}

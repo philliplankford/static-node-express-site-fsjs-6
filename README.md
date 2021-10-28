@@ -1,1 +1,1 @@
-A static node and express site for the Treehouse Full Stack Javascript Techdegree program.
+I have changed the sidebar background color from black to pink, the sidebar paragraph color from gray to white, my name in the header changes from white to pink on hover and the h1 font has been changed to Zen Kurenaido.
