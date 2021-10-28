@@ -1,0 +1,8 @@
+extends layout 
+
+block content 
+    .about-intro-box.box
+        h1= error.message 
+        h2= `error code ${error.status}`
+        if error.status === 404
+            a(href= ``) return home
