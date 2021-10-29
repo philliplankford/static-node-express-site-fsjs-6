@@ -33,7 +33,11 @@ app.use((req, res, next) => { // if program gets here and does not find an execu
 app.use((err, req, res, next) => { // four arguments signifies the error handler 
     res.locals.error = err; 
     res.status(err.status); 
-    res.render('error', err);
+    if (err.status === 404) {
+        res.render('error', err);
+    } else {
+        res.render('page-not-found', err);
+    }
 });
 
 /* === START LOCAL SERVER === */
