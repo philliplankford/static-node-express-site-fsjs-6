@@ -3,8 +3,13 @@ const router = express.Router();
 const data = require('../data.json');
 const { projects } = data;
 
+function getRandom(min, max) {
+    return Math.floor( Math.random() * max ) - min;
+}
+
 router.get('/', (req, res) => {
-    res.render('project');
+    const randProject = getRandom( 0, projects.length );
+    res.redirect(`project/${randProject}`);
 });
 
 router.get('/:id', (req, res) => {

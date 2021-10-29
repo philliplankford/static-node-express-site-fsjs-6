@@ -8,7 +8,7 @@ app.use('/static', express.static('public')); // serves static assets to the cli
 
 /* === ROUTE IMPORT === */
 const mainRoutes = require('./routes'); // index.js is default
-const projectsRoutes = require('./routes/projects');
+const projectRoutes = require('./routes/project');
 const aboutRoutes = require('./routes/about');
 
 // // intentional 500 error test
@@ -19,7 +19,7 @@ const aboutRoutes = require('./routes/about');
 // });
 
 app.use(mainRoutes);
-app.use('/projects', projectsRoutes);
+app.use('/project', projectRoutes);
 app.use('/about', aboutRoutes);
 
 /* === 404 === */
