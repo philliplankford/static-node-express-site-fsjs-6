@@ -14,8 +14,8 @@
             "live_link": "https://philliplankford.com/tech-degree-project-7/",
             "github_link": "https://github.com/philliplankford/tech-degree-project-7",
             "image_urls": {
-                "landing": "../images/web-app.png",
-                "project_page": "../images/web-app-alerts.png"
+                "landing": "web-app.png",
+                "project_page": "web-app-alerts.png"
             }
         },
         {
@@ -32,8 +32,8 @@
             "live_link": "https://philliplankford.com/tech-degree-project-8/",
             "github_link": "https://github.com/philliplankford/tech-degree-project-8",
             "image_urls": {
-                "landing": "../images/employee-directory.png",
-                "project_page": "../images/employee-directory-filter.png"
+                "landing": "employee-directory.png",
+                "project_page": "employee-directory-filter.png"
             }
         }
     ]
