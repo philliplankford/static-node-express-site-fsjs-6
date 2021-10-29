@@ -35,6 +35,56 @@
                 "landing": "employee-directory.png",
                 "project_page": "employee-directory-filter.png"
             }
+        },
+        {
+            "id": 2,
+            "project_name": "Photo Gallery",
+            "description": "A searchable photo gallery using CSS grid.",
+            "technologies": [
+                "Javasript",
+                "CSS Grid",
+                "SCSS"
+            ],
+            "live_link": "https://philliplankford.com/techdegree-project-5/",
+            "github_link": "https://github.com/philliplankford/techdegree-project-5",
+            "image_urls": {
+                "landing": "photo-gallery.png",
+                "project_page": "photo-gallery-filter.png"
+            }
+        },
+        {
+            "id": 3,
+            "project_name": "Online Form",
+            "description": "An interactive form for a coding newsletter.",
+            "technologies": [
+                "HTML",
+                "CSS Forms",
+                "Flexbox"
+            ],
+            "live_link": "https://philliplankford.com/techdegree-project-3/",
+            "github_link": "https://github.com/philliplankford/techdegree-project-3",
+            "image_urls": {
+                "landing": "form.png",
+                "project_page": "form-filled.png"
+            }
+        },
+        {
+            "id": 4,
+            "project_name": "Online Portfolio",
+            "description": "A portfolio to showcase the projects I made in the Front End Techdegree at Treehouse.",
+            "technologies": [
+                "Javasript",
+                "CSS 3D Transforms",
+                "CSS Grid",
+                "CSS Flexbox",
+                "SCSS"
+            ],
+            "live_link": "https://philliplankford.com",
+            "github_link": "https://github.com/philliplankford/philliplankford.github.io",
+            "image_urls": {
+                "landing": "portfolio.png",
+                "project_page": "portfolio-archive.png"
+            }
         }
     ]
 }
