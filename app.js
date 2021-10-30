@@ -32,11 +32,12 @@ app.use((req, res, next) => { // if program gets here and does not find an execu
 /* === ERROR HANDLER === */
 app.use((err, req, res, next) => { // four arguments signifies the error handler 
     res.locals.error = err; 
-    res.status(err.status); 
+    res.status(err.status);
+    console.log(`${err.name} - ${err.message} Error code: ${err.status}`);
     if (err.status === 404) {
-        res.render('error', err);
-    } else {
         res.render('page-not-found', err);
+    } else {
+        res.render('error', err);
     }
 });
 

@@ -381,3 +381,8 @@ nav a span {
 h1 {
   font-family: 'Zen Kurenaido', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+.dev-intro-box h5:hover {
+  transition: all .5s ease-out;
+  color:black; 
+}

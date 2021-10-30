@@ -1,1 +1,1 @@
-I have changed the sidebar background color from black to pink, the sidebar paragraph color from gray to white, my name in the header changes from white to pink on hover and the h1 font has been changed to Zen Kurenaido.
+I have changed the sidebar background color from black to pink, the sidebar paragraph color from gray to white, my name in the header changes from white to pink on hover in tablet and mobile modes but changes to black when in desktop.The h1 font has been changed to Zen Kurenaido.
